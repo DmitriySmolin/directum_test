@@ -1,0 +1,121 @@
+{
+	"form": {
+		"name": "register",
+		"items": [{
+				"type": "filler",
+				"message": "<h1>Регистрация</h1>"
+			},
+			{
+				"type": "text",
+				"name": "name",
+				"placeholder": "Введите ваше имя",
+				"value": "",
+				"class": "",
+				"required": true,
+				"disabled": false,
+				"validationRules": {
+					"type": "text"
+				},
+				"label": "Имя:"
+			},
+			{
+				"type": "radio",
+				"name": "sex",
+				"value": "",
+				"class": "",
+				"checked": false,
+				"validationRules": {
+					"type": "radio"
+				},
+				"label": "Ваш пол:"
+			},
+			{
+				"type": "email",
+				"name": "email",
+				"placeholder": "Введите email",
+				"value": "",
+				"class": "",
+				"disabled": false,
+				"required": true,
+				"validationRules": {
+					"type": "email"
+				},
+				"label": "Email:"
+			},
+			{
+				"type": "tel",
+				"name": "tel",
+				"placeholder": "Введите телефон",
+				"value": "",
+				"class": "",
+				"disabled": false,
+				"required": false,
+				"validationRules": {
+					"type": "tel"
+				},
+				"label": "Телефон:"
+			},
+			{
+				"type": "textarea",
+				"name": "textarea",
+				"placeholder": "",
+				"value": "",
+				"class": "",
+				"disabled": false,
+				"required": false,
+				"validationRules": {
+					"type": "text"
+				},
+
+				"label": "Доп. информация:"
+			},
+			{
+				"type": "select",
+				"name": "select",
+				"class": "",
+				"disabled": false,
+				"required": true,
+				"validationRules": {
+					"type": "select"
+				},
+				"label": "Страна:",
+				"options": [{
+						"text": "Россия",
+						"value": "Россия",
+						"selected": false
+
+					},
+					{
+						"text": "Украина",
+						"value": "Украина",
+						"selected": false
+					},
+					{
+						"text": "Беларусь",
+						"value": "Украина",
+						"selected": false
+					}
+				]
+			},
+			{
+				"type": "checkbox",
+				"name": "checkbox",
+				"value": "",
+				"class": "",
+				"disabled": false,
+				"checked": false,
+				"required": true,
+				"validationRules": {
+					"type": "checkbox"
+				},
+				"label": "Я согласен на обработку персональных данных"
+			},
+			{
+				"type": "button",
+				"text": "Отправить",
+				"class": ""
+			}
+		],
+		"postmessage": "<p>Благодарим вас за регистрацию!</p>"
+	}
+}
